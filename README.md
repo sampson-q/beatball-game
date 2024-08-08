@@ -42,13 +42,18 @@
 ```
 beatball-game/
 ├── assets/
+│   └── sounds/
+│       ├── bounce.wav
+│       ├── score.wav
+│       ├── life.wav
+│       └── game_over.wav
 ├── docs/
 ├── src/
 │   ├── __init__.py
 │   ├── main.py
 │   ├── game.py
 │   ├── ui.py
-│   ├── sound.py
+│   └── sound.py
 ├── tests/
 ├── .gitignore
 ├── README.md
