@@ -33,15 +33,15 @@ life_image = pygame.image.load("assets/imgs/life.png").convert_alpha()
 life_image = pygame.transform.scale(life_image, (30, 30))
 
 # Load sound effects
-hit_paddle_sound = pygame.mixer.Sound("assets/sound/ball.mp3")
-hit_wall_sound = pygame.mixer.Sound("assets/sound/ball_hit.mp3")
-power_up_spawn_sound = pygame.mixer.Sound("assets/sound/powerups.mp3")
-game_over_sound = pygame.mixer.Sound("assets/sound/game_over.mp3")
-chewing_sound = pygame.mixer.Sound("assets/sound/chewing.mp3")
-ball_fall_sound = pygame.mixer.Sound("assets/sound/ball_fall.mp3")
+hit_paddle_sound = pygame.mixer.Sound("assets/sounds/ball.mp3")
+hit_wall_sound = pygame.mixer.Sound("assets/sounds/ball_hit.mp3")
+power_up_spawn_sound = pygame.mixer.Sound("assets/sounds/powerups.mp3")
+game_over_sound = pygame.mixer.Sound("assets/sounds/game_over.mp3")
+chewing_sound = pygame.mixer.Sound("assets/sounds/chewing.mp3")
+ball_fall_sound = pygame.mixer.Sound("assets/sounds/ball_fall.mp3")
 
 # Load background music
-background_music_path = "assets/sound/background_music.mp3"
+background_music_path = "assets/sounds/background_music.mp3"
 pygame.mixer.music.load(background_music_path)
 pygame.mixer.music.set_volume(0.5)
 
@@ -179,7 +179,7 @@ def game_loop(environment_name, ball_image):
     power_up_message = ""
 
     # Play background music
-    pygame.mixer.music.load("assets/sound/background_music.mp3")
+    pygame.mixer.music.load("assets/sounds/background_music.mp3")
     pygame.mixer.music.play(-1)
 
     while True:

@@ -41,21 +41,40 @@
 ## Project Structure
 ```
 beatball-game/
-├── ../assets/
+├── assets/
+|   ├── imgs/
+|   |   ├── bball.png
+|   |   ├── desert.jpg
+|   |   ├── extra_life.png
+|   |   ├── fball.png
+|   |   ├── forest.jpg
+|   |   ├── life.png
+|   |   ├── paddle.png
+|   |   ├── sball.png
+|   |   ├── sgball.png
+|   |   ├── shield.png
+|   |   ├── space.jpg
+|   |   └── speed_boos.png
 │   └── sounds/
-│       ├── bounce.wav
-│       ├── score.wav
-│       ├── life.wav
-│       └── game_over.wav
-├── docs/
+│       ├── background_music.mp3
+│       ├── ball_fall.mp3
+│       ├── ball_hit.mp3
+│       ├── ball.mp3
+│       ├── chewing.mp3
+│       ├── game_over.mp3
+│       └── powerups.mp3
 ├── src/
 │   ├── __init__.py
-│   ├── main.py
-│   ├── game.py
-│   ├── ui.py
-│   └── sound.py
-├── tests/
+│   ├── environment.py
+│   ├── leaderboard.py
+│   ├── levels.py
+│   ├── main_menu.py
+│   ├── menu.py
+│   ├── particles.py
+│   └── powerups.py
 ├── .gitignore
+├── leaderboard.json
+├── main.py
 ├── README.md
 └── requirements.txt
 ```
