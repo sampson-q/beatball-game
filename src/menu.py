@@ -1,7 +1,7 @@
 import sys
 
 import pygame
-from levels import set_difficulty
+from src.levels import set_difficulty
 
 # Initialize Pygame
 pygame.init()

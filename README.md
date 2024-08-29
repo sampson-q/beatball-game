@@ -41,7 +41,7 @@
 ## Project Structure
 ```
 beatball-game/
-├── assets/
+├── ../assets/
 │   └── sounds/
 │       ├── bounce.wav
 │       ├── score.wav
@@ -61,7 +61,7 @@ beatball-game/
 ```
 
 ## Stucture Details
->1. **assets/**: Contains images, sounds, and other game assets.
+>1. **../assets/**: Contains images, sounds, and other game ../assets.
 >2. **docs/**: Contains project documentation.
 >3. **src/**: Contains the source code for the game.
 >>  - **main.py**: Entry point of the game.

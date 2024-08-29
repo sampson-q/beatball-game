@@ -4,14 +4,14 @@ import time
 
 import pygame
 
-from environment import (load_environment_images, set_background_images, show_environment_menu, load_ball_images,
+from src.environment import (load_environment_images, set_background_images, show_environment_menu, load_ball_images,
                          show_ball_menu, balls)
-from levels import difficulty_settings
-from main_menu import show_main_menu
-from menu import show_menu, show_difficulty_menu
-from powerups import PowerUp
-from leaderboard import add_score, display_leaderboard
-from particles import ParticleManager, ScreenShake
+from src.levels import difficulty_settings
+from src.main_menu import show_main_menu
+from src.menu import show_menu, show_difficulty_menu
+from src.powerups import PowerUp
+from src.leaderboard import add_score, display_leaderboard
+from src.particles import ParticleManager, ScreenShake
 
 
 # Initialize Pygame
@@ -29,7 +29,7 @@ set_background_images(background_images)
 ball_images = load_ball_images()
 
 # Load life image
-life_image = pygame.image.load("assets/life.png").convert_alpha()
+life_image = pygame.image.load("assets/imgs/life.png").convert_alpha()
 life_image = pygame.transform.scale(life_image, (30, 30))
 
 # Load sound effects
@@ -164,7 +164,7 @@ def game_loop(environment_name, ball_image):
     screen_shake = ScreenShake()
 
     # Load and scale paddle image after player_width is set
-    paddle_image = pygame.image.load("assets/paddle.png").convert_alpha()
+    paddle_image = pygame.image.load("assets/imgs/paddle.png").convert_alpha()
     paddle_image = pygame.transform.scale(paddle_image, (player_width, 20))
 
     # Load the background image for the selected environment

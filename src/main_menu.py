@@ -1,6 +1,6 @@
 # main_menu.py
 import pygame
-from leaderboard import display_leaderboard
+from src.leaderboard import display_leaderboard
 
 def show_main_menu():
     pygame.init()

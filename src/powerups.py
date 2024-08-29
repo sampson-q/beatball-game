@@ -9,9 +9,9 @@ def load_and_resize_image(path, size=(50, 50)):
 power_up_size = (50, 50)
 
 power_up_images = {
-    "speed_boost": load_and_resize_image("assets/speed_boost.png", power_up_size),
-    "shield": load_and_resize_image("assets/shield.png", power_up_size),
-    "extra_life": load_and_resize_image("assets/extra_life.png", power_up_size)
+    "speed_boost": load_and_resize_image("assets/imgs/speed_boost.png", power_up_size),
+    "shield": load_and_resize_image("assets/imgs/shield.png", power_up_size),
+    "extra_life": load_and_resize_image("assets/imgs/extra_life.png", power_up_size)
 }
 
 class PowerUp:

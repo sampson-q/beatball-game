@@ -8,24 +8,24 @@ SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
 environments = {
     "forest": {
         "background_color": (34, 139, 34),  # Forest green
-        "background_image": "assets/forest.jpg"
+        "background_image": "assets/imgs/forest.jpg"
     },
     "desert": {
         "background_color": (210, 180, 140),  # Tan
-        "background_image": "assets/desert.jpg"
+        "background_image": "assets/imgs/desert.jpg"
     },
     "space": {
         "background_color": (0, 0, 0),  # Black
-        "background_image": "assets/space.jpg"
+        "background_image": "assets/imgs/space.jpg"
     }
 }
 
 # Ball options
 balls = {
-    "basketball": "assets/bball.png",
-    "football": "assets/fball.png",
-    "designed": "assets/sball.png",
-    "gold": "assets/sgball.png"
+    "basketball": "assets/imgs/bball.png",
+    "football": "assets/imgs/fball.png",
+    "designed": "assets/imgs/sball.png",
+    "gold": "assets/imgs/sgball.png"
 }
 
 
